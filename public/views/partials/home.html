@@ -1,0 +1,11 @@
+<div>
+    <div ng-hide='showUser'>
+        Please log in:<button ng-click='logIn()'>Log In</button>
+    </div>
+    <div ng-show='showUser'>
+        <p>
+            Welcome,
+            {{ userProfile.name }}!<button ng-click='logOut()'>Log Out</button>
+        </p>
+    </div>
+</div>

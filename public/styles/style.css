@@ -1,22 +1,49 @@
 body {
-        padding-top: 70px;
-        margin: auto auto;
-        text-align: center;
+  padding-top: 25px;
+  margin: auto auto;
+  text-align: center;
     }
 img {
   width: 30%;
 }
-.itemBox {
-  background-color: #282828;
-  border-radius: 3px;
+.navigation {
+  background-color: #2b2b32;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  float: left;
+  font-size: large;
   color: #fff;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  display: inline;
+  /*text-decoration: none;*/
+  margin: 10px;
+}
+header {
+  margin: 0px;
+}
+a {
+  color: #fff;
+}
+.itemBox {
+  border-radius: 3px;
   padding: 15px 0;
 }
-.shelfContainer {
+.bgImage {
+  background-image: url('../images/piShelf.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 200px;
+  margin: 0px;
+}
+.container-fluid {
   background-color: #e4e4e4;
   border-radius: 3px;
-  width:100%;
-  margin: auto auto;
 }
 .row {
   margin-right: -30px;
